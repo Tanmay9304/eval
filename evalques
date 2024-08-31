@@ -1,0 +1,46 @@
+task= {}
+def addname():
+{
+    Tname=input("enter task with name: ")
+    ID=input("enter ID:")
+    taskstat=input("enter task status")
+    taskinfo={
+        'Tname':task_name,
+        'ID':ID,
+        'taskstatus':taskstat
+        
+    }
+    task[Tname]=taskinfo
+    Tname=input("")
+    ID=input("")
+    taskstst=input("")
+    print(f"task'(Tname)'added sucessfully")
+    addname()
+    
+}
+def update():
+{
+    task.update
+    Tname=input("enter task name")
+    ID=input("enter id")
+    taskstat=input("enter task status")
+        print(f"task'(Tname)'updated sucessfully")
+    else:
+        print(f"task'(Tname)'added sucessfully")
+}
+def remove():
+    {
+        Tname=input("enter task name to remove")
+        if name in task:
+        del task[name]
+             print(f"task'(Tname)'deleted sucessfully")
+        else
+             print(f"task'(Tname)'not deleted sucessfully")
+        
+    }
+    def listing():
+        {
+       for Tname,info in task.items()
+            print(f")
+        
+}
